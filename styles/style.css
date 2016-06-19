@@ -18,7 +18,7 @@ a {
 .header_container {
     width: 100%;
     background: #00283b ;
-    color: #C8C8C8;
+    color: #005da4;
     height: 96px;
     border-bottom:2px groove #01bdf5;
     margin-bottom:24px;
@@ -38,7 +38,7 @@ a {
 
     .header_container .menu a {
         font-size: 16px;    
-        color: #9e9e9e;
+        color: #005da4;
         display: block;
         float: left;
         height: 96px;
