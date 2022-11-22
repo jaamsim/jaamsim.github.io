@@ -1,7 +1,7 @@
 body#home {
     color: #C8C8C8;
     background: #eaeaea url(../images/bg.jpg) repeat-x;
-    background-position: center 96px;
+    background-position: center 60px;
     font-family: Arial;
 }
 
@@ -19,7 +19,7 @@ a {
     width: 100%;
     background: #00283b ;
     color: #005da4;
-    height: 96px;
+    height: 60px;
     border-bottom:2px groove #01bdf5;
     margin-bottom:24px;
 }
@@ -27,7 +27,7 @@ a {
     .header_container h1 {
         float: left;
         font-size: 40px;
-        padding: 20px 0 0 0;
+        padding: 16px 0 0 0;
     }
 
     .header_container .menu {
@@ -41,8 +41,8 @@ a {
         color: #005da4;
         display: block;
         float: left;
-        height: 96px;
-        line-height: 96px;
+        height: 60px;
+        line-height: 60px;
         padding: 0px 14px;
     }
 
@@ -51,8 +51,8 @@ a {
             background: #2d657f;
             color: #fff;
             border-bottom: 4px solid #01bdf5;
-            height: 92px;
-            line-height: 96px;
+            height: 60px;
+            line-height: 60px;
         }
 
 .container_12 .left_column {
