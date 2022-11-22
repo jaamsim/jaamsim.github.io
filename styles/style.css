@@ -37,7 +37,7 @@ a {
     }
 
     .header_container .menu a {
-        font-size: 16px;    
+        font-size: 12px;
         color: #fff;
         display: block;
         float: left;
@@ -47,7 +47,7 @@ a {
     }
 
         .header_container .menu a:hover, .header_container .menu a.active {
-            font-size: 16px;
+            font-size: 12px;
             text-decoration: underline;
             color: #fff;
             height: 60px;
