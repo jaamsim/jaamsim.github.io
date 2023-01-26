@@ -1,16 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JaamSim Free Discrete Event Simulation Software</title>
-    <meta name="description" content="JaamSim is a java-based free and open source discrete-event simulation
-                software which runs on Windows, MacOS, and Linux, and includes a drag-and-drop user interface,
-                interactive 3D graphics, input and output processing, and model development tools and editors">
-    <link rel="shortcut icon" href="https://jaamsim.com/images/favicon.ico">
-    <link type="text/css" href="styles/reset.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/text.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/960.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/style.css" rel="stylesheet" media="all" />
+    <meta name="description" content="JaamSim is a java-based free and open source discrete-event simulation software which runs on Windows, MacOS, and Linux, and includes a drag-and-drop user interface, interactive 3D graphics, input and output processing, and model development tools and editors">
+
+    <meta property="og:site_name" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta property="og:title" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta property="og:url" content="https://www.jaamsim.com/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+    <meta property="og:image" content="https://jaamsim.com/jaamsim/assets/images/open-graph-image.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta itemprop="name" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta itemprop="url" content="https://www.jaamsim.com/"/>
+    <meta itemprop="description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+    <meta itemprop="thumbnailUrl" content="http://baysidewebdesign.com/jaamsim/assets/images/itemprop-thumbnail.jpg"/>
+    <link rel="image_src" href="https://jaamsim.com/jaamsim/assets/images/itemprop-thumbnail.jpg" />
+    <meta itemprop="image" content="https://jaamsim.com/assets/images/itemprop-thumbnail.jpg"/>
+    <meta name="twitter:title" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta name="twitter:image" content="https://jaamsim.com/jaamsim/assets/images/twitter-sharing-image.jpg"/>
+    <meta name="twitter:url" content="https://www.jaamsim.com/"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+
+    <!-- External CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav.png">
+    
+    <!-- GRT Youtube Plugin CSS -->
+    <link rel="stylesheet" href="assets/css/grt-youtube-popup.css">
+    
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    
+    
+</head>
+
+<body>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,114 +57,319 @@
       ga('create', 'UA-46363301-1', 'jaamsim.com');
       ga('send', 'pageview');
     </script>
-</head>
-    
-<body id="home">
-    <div class="header_container">
-        <div class="container_12">
-            <div class="grid_4">
-                <h1><a href="./index.html">
-                <img src="images/logo.png"
-                     alt="JaamSim Free Open Source Simulation Software"/>
-                </a></h1>
-            </div>
-            <div class="grid_8">
-                <div class="menu">
-                    <a href="https://jaamsim.com/index.html" onclick="ga('send', 'event', 'button', 'click','blog');">HOME</a>
-                    <a href="https://jaamsim.com/downloads.html" onclick="ga('send', 'event', 'button', 'click','downloads');">DOWNLOADS</a>
-                    <a href="https://jaamsimpro.com" onclick="ga('send', 'event', 'button', 'click','pro');">JAAMSIM PRO</a>
-                    <a href="https://groups.google.com/forum/#!forum/jaamsim-users" onclick="ga('send', 'event', 'button', 'click','forum');">FORUM</a>
-                    <a href="https://jaamsim.com/blog.html" onclick="ga('send', 'event', 'button', 'click','blog');">BLOG</a>
-                    <a href="https://www.youtube.com/c/jaamsim" onclick="ga('send', 'event', 'button', 'click','videos');">VIDEOS</a>
-                    <a href="https://github.com/jaamsim/jaamsim" onclick="ga('send', 'event', 'button', 'click','ghub');">GITHUB</a>
+    <!-- Header -->
+    <header class="main_header">
+        <div class="container">
+        	 <!-- Main Nav Menu -->
+            <nav  id="primary_navigation"class="navbar navbar-expand-lg site_navigation navbar-dark">
+                <div class="logo">
+                    <a href="/jaamsim/">
+                        <img class="img-responsive light_logo" src="assets/images/logo-white.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <ul class="nav main_menu_list justify-content-end">
+                        <li class="menu-item page-active">
+                            <a href="/jaamsim/">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="downloads.html">Downloads</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://groups.google.com/forum/#!forum/jaamsim-users" target="_blank">Forum</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://www.youtube.com/c/jaamsim" target="_blank">Videos</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://github.com/jaamsim/jaamsim">Github</a>
+                        </li>
+                        <li class="menu-item">
+                           <a href="https://jaamsimpro.com/">Get Jaamsim Pro</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /. Header -->
+
+    <!-- banner Section -->
+    <section class="banner_sec">
+        <div class="banner_slide" style="background-image: url(assets/images/banner.jpg);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="caption_banner text-left col-md-6">
+                        
+                        <h1>Leading Edge Simulation</h1>
+                        <p>JaamSim is a free, open source discrete-event simulation software which includes:</p>
+                        <ul>
+                            <li>a drag-and-drop user interface</li>
+                            <li>interactive 3D graphics</li>
+                            <li>input and output processing</li>
+                            <li>model development tools and editors</li>
+                        </ul>
+                        <div class="banner-btns"><a href="/downloads.html" class="btn button-gradient button-large mt-3" >Download Free <i><img src="assets/images/icon-download.png"></i></a> <a href="https://www.jaamsimpro.com/" class="btn button-large mt-3">Upgrade to Pro</a></div>
+                        
+                        <p class="less-important">Available for Windows, MacOS, and Linux <br>License: JaamSim is Apache 2.0</p>
+                        
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/Factory-Model-Screenshot.jpg" alt="Factory Model - Simulation" class="youtube-link1" youtubeid="-XbC-2VeyVU">
+                    </div>
+                </div>
+                <div class="row why_sec">
+                    <div class="col-md-4 my-4">
+                        <h3>Drag & Drop</h2>
+
+                        <p>JaamSim is the only free open source simulation software to offer a drag & drop interface that rivals commercial simulation packages. Libraries of objects are provided for building process flow and system dynamics type models.</p>
+                    </div>
+
+                    <div class="col-md-4 my-4">
+                        <h3>Fast & Scalable</h2>
+
+                        <p>JaamSim is many times faster than the commercial simulation software packages and is scalable to much larger and more complex models. We have built models with as many as 40,000 active objects.</p>
+
+                    </div>
+
+                    <div class="col-md-4 my-4">
+                        <h3>Widely Used</h2>
+
+                        <p>JaamSim is used by leading companies and universities around the world. It has been in continuous development since 2002 and is downloaded more than 10,000 times per year. </p>
+
+                    </div>
+                </div>
+                
+                <div class="row donate-paypal">
+                    <div class="col-md-12">
+                        <p>Support the development of open-source JaamSim software.</p>
+                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="5KJHCS4NFFXEJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+</form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-<div class="clear"></div>
+    </section>
+    <!-- /. banner Section -->
     
-        <div class="container_12">
-                <div class="grid_5">
-                        <div class="left_column">
-                                <h2>Leading Edge Simulation</h2>
-                                <p>
-                                    JaamSim is a free and open source discrete-event simulation
-                                    software which includes a drag-and-drop
-                                    user interface, interactive 3D graphics, input
-                                    and output processing, and model
-                                    development tools and editors.
-                                </p>
-                                <p>
-                                    Available for Windows, MacOS, and Linux
-                                </p>
-                                <p><b>License:</b> JaamSim is <a href="https://github.com/JaamSim/JaamSim/blob/master/LICENSE" >Apache 2.0</a></p>
-                                <center><a class="download" href="https://jaamsim.com/downloads.html">Download JaamSim</a></center>
-                        </div>
+     <section class="jaamsimpro_sec">
+        <div class="container">
+            
+            <div class="row text-center home-feature-title">
+                <div class="col-lg-10 mx-auto">
+                    <p class="upgrade-to">Upgrade to</p>
+                    <p class="mx-auto upgrade-logo"><img src="assets/images/jaamsimPro-logo-wt.png"></p>
+                    <h3 class="smaller-heading" style="display:none;">Upgrade to JaamSim Pro</h3>
+                    <h2 class="big-heading">Build simulation models of complex transportation systems in days instead of months</h2>
+                    <p class="mx-auto mb-0">Ports • Shipping • Rail Networks • Containers • Cargo • Bulk Material Facilities • People</p>
                 </div>
-
-                <div class="grid_7">
-                        <div class="right_column">
-                                <img src="images/FactoryExample.png" alt="" width="520">
-                        </div>
-                </div>
-        </div>
-        
-<div class="clear"></div>
-     
-        <div class="container_12">
-                <div class="grid_4">
-                        <div class="features_item">
-                                <h3>Drag &amp Drop</h3>
-                                <p>JaamSim is the only free open source simulation software to offer a drag &amp drop interface that rivals commercial
-                                   simulation packages. A full palette of objects is provided for building process flow and system dynamics type models.
-                                </p>
-                        </div>
-                </div>
-
-                <div class="grid_4">
-                        <div class="features_item">
-                                <h3>Fast &amp Scalable</h3>
-                                <p>JaamSim is many times faster than the commercial simulation software packages and is
-                                   scalable to much larger and more complex models. We have built models with as many as 40,000 active objects.
-                                </p>
-                        </div>
-                </div>
-        
-                <div class="grid_4">
-                        <div class="features_item">
-                                <h3>Widely Used</h3>
-                                <p>JaamSim is used by leading companies and universities around the world.
-                                   It has been in continuous development since 2002 and is downloaded more than 10,000 times per year.
-                                </p>
-                        </div>
-                </div>
-        </div>
-
-<div class="clear"></div>
-    
-    <div class="container_12">
-            <div class="normal" style="padding-left: 20px; padding-right: 20px">
-                <h3>JaamSim Pro</h3>
-                <p>JaamSim Pro is a commercial extension of the open-source JaamSim software for modelling ports, bulk terminals, shipping,
-                   rail networks, and many other transportation systems.
-                   Build detailed models of complex systems in days instead of months.
-                </p>
-                <center><a class="download" style="width:40%" href="https://jaamsimpro.com">Learn about JaamSim Pro</a></center>
-            </div>
-    </div>
-
-<div class="clear"></div>
-    
-    <div class="footer">
-        <div class="container_12">
-            <div class="grid_4">
-                    <p>General Inquiries: <a href="mailto:d.harry.king@gmail.com">Dr. Harry King</a>
-                    <br>Technical Inquiries: <a href="mailto:harvey.harrison@gmail.com">Harvey Harrison</a></p>
             </div>
             
-        </div>
-    </div>
+            <div class="row align-items-center main_inner comparison-table-outer" style="padding-top:30px;">
+            	<div class="col-md-12">
+                    <div class="comparison-table">
+                        <div class="trow theader">
+                            <div class="tcol tcol1">Features</div>
+                            <div class="tcol tcol2">Open Source</div>
+                            <div class="tcol tcol3">JaamSim Pro</div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Industrial Strength</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Faster Execution Speed</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Flexible Integration</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Scalable to Huge Models</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Versatile User Interface</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Version Control</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Object Oriented</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">SubModels</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">3D Graphics</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Object Libraries: Graphics, Probability Distributions, Basic Objects, Resources, Process Flow, Calculation, Fluid Flow, SubModel</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1"><b>Object Libraries:</b> Transportation, Material Flow, Maps</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Vehicle Movement</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Material Flow Handling</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Bulk Terminals</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Trucks, Trains, Ships</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                        <div class="trow">
+                            <div class="tcol tcol1">Rules to prevent deadlocks</div>
+                            <div class="tcol tcol2"><img src="assets/images/icon-wrong.png" alt="No"></div>
+                            <div class="tcol tcol3"><img src="assets/images/icon-tick.png" alt="Yes"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="row home-feature align-items-center main_inner">
+                <div class="col-md-6">
+                	<h3>EXTENSIVE LIBRARY OF OBJECTS <span>allows for ease of modelling</span></h3>
+                    <ul>
+                        <li>flow of bulk materials, such as conveyors, storage bins, stockyards.</li>
+                        <li>movement of vehicles, such as cars, trucks, trains, ships.</li>
+                        <li>vehicles that carry bulk materials: oil tankers, LNG carrier ships, bulk carrier ships, ore trains.</li>
+                        <li>loading and unloading of bulk materials; ship loaders/unloaders, train loaders/unloaders.</li>
+                        <li>vehicles such as container ships, container trains, buses, passenger trains.</li>
+                    </ul>
+                </div>
 
+                <div class="col-md-6">
+                    <img src="assets/images/feature-Extensive-library-of-objects.jpg" alt="EXTENSIVE LIBRARY OF OBJECTS Thumbnail" class="youtube-link youtube-link2" youtubeid="A8mhfmyA-Vs">
+                </div>
+            </div>
+            <div class="row home-feature align-items-center main_inner">
+            	<div class="col-md-6">
+                    <img src="assets/images/feature-build-in-logic.jpg" alt="Built-in Logic Thumbnail" class="youtube-link youtube-link3" youtubeid="MLsUSR-9A6w">
+                </div>
+                <div class="col-md-6">
+                	<h3>BUILT IN LOGIC <span>control flow and movement</span></h3>
+                    <ul>
+                        <li>control the start, stop, and routing of material flows</li>
+                        <li>manage vehicle movement: select destinations, determine best path, avoid deadlocks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row home-feature align-items-center main_inner">
+                <div class="col-md-6">
+                	<h3>COMPETITIVE ADVANTAGE <span>using JaamSim Pro’s commercial extension</span></h3>
+                    <ul>
+                        <li>build MVP model in days instead of weeks</li>
+                        <li>models are highly configurable</li>
+                        <li>built-in capabilities support detailed bespoke logic</li>
+                        <li>productive collaboration using version control</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/feature-competitive-advantage.jpg" alt="Competitive advantage" class="youtube-link youtube-link4" youtubeid="iOQmJdxfgR8">
+                </div>
+            </div>
+            
+            <div class="row text-center">
+            	<div class="col-md-12">
+                    <a href="https://www.jaamsimpro.com/" class="btn button-gradient button-large mt-3" data-animation="fadeInUp" data-delay="1.6s">Learn more about JaamSim Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="jaamsimpro_para_image">
+        <img src="assets/images/image-mask-blue.png">
+    </section>
+
+    <!-- Footer Section -->
+    <footer Class="main_footer text-center">
+        <div class="container">
+        	<div class="logo-footer">
+        		<a href="#">
+        			<img src="assets/images/logo-white.png">
+        		</a>
+        	</div>
+            <p><span style="opacity:.6;">General Inquiries:</span> <a href="mailto:d.harry.king@gmail.com">Dr. Harry King</a><br><span style="opacity:.6;">Technical Inquiries:</span> <a href="mailto:harvey.harrison@gmail.com">Harvey Harrison</a></p>
+            <div class="copyright_text ">
+                © 2023 JaamSim Software Inc&nbsp; •&nbsp; <a href="#">Discrete Event Simulation Software</a> • <a href="#">License Terms and Conditions</a><a href="#"><br>Site Design by </a><a href="https://www.baysidewebdesign.com/">Bayside Web Design</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer Section -->
+
+    <!-- External JS libraries -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script><!-- Jquery -->
+    <!-- GRT Youtube Popup -->
+    <script src="assets/js/grt-youtube-popup.js"></script>
+
+    <!-- Initialize GRT Youtube Popup plugin -->
+    <script>
+        // Demo video 1
+        $(".youtube-link1").grtyoutube({
+            autoPlay:true,
+            theme: "dark"
+        });
+        $(".youtube-link2").grtyoutube({
+            autoPlay:true,
+            theme: "dark"
+        });
+        $(".youtube-link3").grtyoutube({
+            autoPlay:true,
+            theme: "dark"
+        });
+        $(".youtube-link4").grtyoutube({
+            autoPlay:true,
+            theme: "dark"
+        });
+
+    </script>
 </body>
 </html>

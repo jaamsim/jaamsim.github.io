@@ -1,14 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JaamSim Free Discrete Event Simulation Software - Blog</title>
     <meta name="description" content="Thoughts from the JaamSim team about modelling, simulation and the industry at large">
-    <link rel="shortcut icon" href="https://jaamsim.com/images/favicon.ico">
-    <link type="text/css" href="styles/reset.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/text.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/960.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="styles/style.css" rel="stylesheet" media="all" />
+
+    <meta property="og:site_name" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta property="og:title" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta property="og:url" content="https://www.jaamsim.com/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+    <meta property="og:image" content="https://jaamsim.com/jaamsim/assets/images/open-graph-image.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta itemprop="name" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta itemprop="url" content="https://www.jaamsim.com/"/>
+    <meta itemprop="description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+    <meta itemprop="thumbnailUrl" content="http://baysidewebdesign.com/jaamsim/assets/images/itemprop-thumbnail.jpg"/>
+    <link rel="image_src" href="https://jaamsim.com/jaamsim/assets/images/itemprop-thumbnail.jpg" />
+    <meta itemprop="image" content="https://jaamsim.com/assets/images/itemprop-thumbnail.jpg"/>
+    <meta name="twitter:title" content="JaamSim- Discrete-event Simulation Software"/>
+    <meta name="twitter:image" content="https://jaamsim.com/jaamsim/assets/images/twitter-sharing-image.jpg"/>
+    <meta name="twitter:url" content="https://www.jaamsim.com/"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="A free, open source simulation software that is fast and scalable for building complex models."/>
+
+
+    <!-- External CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav.png">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,60 +54,85 @@
       ga('create', 'UA-46363301-1', 'jaamsim.com');
       ga('send', 'pageview');
     </script>
-</head>
-    
-<body id="other">
-    <div class="header_container">
-        <div class="container_12">
-            <div class="grid_4">
-                <h1><a href="./index.html">
-                <img src="images/logo.png"
-                     alt="Jaamsim Discrete Event Simulation Software"/>
-                </a></h1>
-            </div>
-            <div class="grid_8">
-                <div class="menu">
-                    <a href="https://jaamsim.com/index.html" onclick="ga('send', 'event', 'button', 'click','blog');">HOME</a>
-                    <a href="https://jaamsim.com/downloads.html" onclick="ga('send', 'event', 'button', 'click','downloads');">DOWNLOADS</a>
-                    <a href="https://jaamsimpro.com" onclick="ga('send', 'event', 'button', 'click','pro');">JAAMSIM PRO</a>
-                    <a href="https://groups.google.com/forum/#!forum/jaamsim-users" onclick="ga('send', 'event', 'button', 'click','forum');">FORUM</a>
-                    <a href="https://jaamsim.com/blog.html" onclick="ga('send', 'event', 'button', 'click','blog');">BLOG</a>
-                    <a href="https://www.youtube.com/c/jaamsim" onclick="ga('send', 'event', 'button', 'click','videos');">VIDEOS</a>
-                    <a href="https://github.com/jaamsim/jaamsim" onclick="ga('send', 'event', 'button', 'click','ghub');">GITHUB</a>
+    <!-- Header -->
+    <header class="main_header">
+        <div class="container">
+        	 <!-- Main Nav Menu -->
+            <nav  id="primary_navigation"class="navbar navbar-expand-lg site_navigation navbar-dark">
+                <div class="logo">
+                    <a href="/jaamsim/">
+                        <img class="img-responsive light_logo" src="assets/images/logo-white.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <ul class="nav main_menu_list justify-content-end">
+                        <li class="menu-item">
+                            <a href="/jaamsim/">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="downloads.html">Downloads</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://groups.google.com/forum/#!forum/jaamsim-users" target="_blank">Forum</a>
+                        </li>
+                        <li class="menu-item page-active">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://www.youtube.com/c/jaamsim" target="_blank">Videos</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://github.com/jaamsim/jaamsim">Github</a>
+                        </li>
+                        <li class="menu-item">
+                           <a href="https://jaamsimpro.com/">Get Jaamsim Pro</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /. Header -->
+
+    <section class="main-body blog-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <iframe id="blog_embed" src="https://jaamsim.blogspot.ca" scrolling="yes" frameborder="0" width="100%" height="700">
+                        </iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+    </section>
+    
+    <section class="jaamsimpro_para_image">
+        <img src="assets/images/image-mask-blue.png">
+    </section>
 
-    <div class="clear"></div>
-    
-    <div class="container_12">
-
-        <iframe id="blog_embed"
-                src="https://jaamsim.blogspot.ca"
-                scrolling="yes"
-                frameborder="0"
-                width="980"
-                height="700">
-        </iframe>
-        
-    </div>
-    
-<div class="clear"></div>
-    
-<div class="spacer"></div>
-    
-<div class="clear"></div>
-    
-    <div class="footer">
-        <div class="container_12">
-            <div class="grid_4">
-                    <p>General Inquiries: <a href="mailto:d.harry.king@gmail.com">Dr. Harry King</a>
-                    <br>Technical Inquiries: <a href="mailto:harvey.harrison@gmail.com">Harvey Harrison</a></p>
+    <!-- Footer Section -->
+    <footer Class="main_footer text-center">
+        <div class="container">
+        	<div class="logo-footer">
+        		<a href="#">
+        			<img src="assets/images/logo-white.png">
+        		</a>
+        	</div>
+            <p><span style="opacity:.6;">General Inquiries:</span> <a href="mailto:d.harry.king@gmail.com">Dr. Harry King</a><br><span style="opacity:.6;">Technical Inquiries:</span> <a href="mailto:harvey.harrison@gmail.com">Harvey Harrison</a></p>
+            <div class="copyright_text ">
+                © 2023 JaamSim Software Inc&nbsp; •&nbsp; <a href="#">Discrete Event Simulation Software</a> • <a href="#">License Terms and Conditions</a><a href="#"><br>Site Design by </a><a href="https://www.baysidewebdesign.com/">Bayside Web Design</a>
             </div>
-            
         </div>
-    </div>
 
+    </footer>
+    <!-- Footer Section -->
+
+    <!-- External JS libraries -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>
